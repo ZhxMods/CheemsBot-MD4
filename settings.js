@@ -1,4 +1,4 @@
-//════════════════════════════//
+════════════════════════════//
 //If you want to recode, reupload
 //or copy the codes/script,
 //pls give credit
@@ -6,7 +6,7 @@
 //© 2022 Xeon Bot Inc. Cheems Bot MD
 //Thank you to Lord Buddha, Family and Myself
 //════════════════════════════//
-//recode kar ke youtube pe upload kar rhe hai ya
+ ke youtube pe upload kar rhe hai ya
 //codes copy kar ke apne script me dal rhe
 //hai to, description me xeon ka yt channel
 // ka link paste kr dena as a cradit or github 
@@ -24,7 +24,7 @@
 const fs = require('fs')
 const chalk = require('chalk')
 
-//Api Website\\
+
 global.APIs = {
 	zenz: 'https://zenzapis.xyz',
 }
@@ -36,21 +36,7 @@ global.APIKeys = {
 
 
 //aumto functioner
-global.autoTyping = false //auto tying in gc (true to on, false to off)
-global.autoreadpmngc = false //auto reading in gc and pm (true to on, false to off)
-global.autoReadGc = false //auto reading in gc (true to on, false to off)
-global.autoRecord = false //auto recording (true to on, false to off)
-global.available = true //auto available (true to on, false to off)
-
-//semt menu variants
-global.vidmenu = fs.readFileSync("./XeonMedia/theme/Cheems-bot.mp4") //gif and video menu
-
-//documents variants
-global.doc1 = 'application/vnd.openxmlformats-officedocument.presentationml.presentation'
-global.doc2 = 'application/vnd.openxmlformats-officedocument.spreadsheetml.sheet'
-global.doc3 = 'application/vnd.openxmlformats-officedocument.wordprocessingml.document'
-global.doc4 = 'application/zip'
-global.doc5 = 'application/pdf'
+'
 global.doc6 = 'application/vnd.android.package-archive'
 
 //owmner v card
